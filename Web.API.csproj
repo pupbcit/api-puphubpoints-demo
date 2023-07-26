@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PUPHubPointsBusinessRules">
+      <HintPath>..\..\PUPHubPoints\bin\Debug\net5.0\Debug\net5.0\PUPHubPointsBusinessRules.dll</HintPath>
+    </Reference>
+    <Reference Include="PUPHubPointsDataServices">
+      <HintPath>..\..\PUPHubPoints\bin\Debug\net5.0\Debug\net5.0\PUPHubPointsDataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="PUPHubPointsModels">
+      <HintPath>..\..\PUPHubPoints\bin\Debug\net5.0\Debug\net5.0\PUPHubPointsModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
